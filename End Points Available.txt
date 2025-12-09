@@ -1,0 +1,55 @@
+LED Control Endpoints
+/turnWhiteOn: Turns the white LED on.
+
+/turnWhiteOff: Turns the white LED off.
+
+/turnYellowOn: Turns the yellow LED on.
+
+/turnYellowOff: Turns the yellow LED off.
+
+/turnGreenOn: Turns the green LED on.
+
+/turnGreenOff: Turns the green LED off.
+
+/turnOrangeOn: Turns the orange LED on.
+
+/turnOrangeOff: Turns the orange LED off.
+
+/turnRedOn: Turns the red LED on.
+
+/turnRedOff: Turns the red LED off.
+
+LED Blinking Endpoints
+/startBlinkingWhite: Starts blinking the white LED.
+
+/stopBlinkingWhite: Stops blinking the white LED and turns it off.
+
+/startBlinkingYellow: Starts blinking the yellow LED.
+
+/stopBlinkingYellow: Stops blinking the yellow LED and turns it off.
+
+/startBlinkingGreen: Starts blinking the green LED.
+
+/stopBlinkingGreen: Stops blinking the green LED and turns it off.
+
+/startBlinkingOrange: Starts blinking the orange LED.
+
+/stopBlinkingOrange: Stops blinking the orange LED and turns it off.
+
+/startBlinkingRed: Starts blinking the red LED.
+
+/stopBlinkingRed: Stops blinking the red LED and turns it off.
+
+LCD Control Endpoints
+/displayMessageOnLCD?line1=text1&line2=text2: Displays the provided text on line 1 and line 2 of the LCD.
+
+/turnLCDBacklightOn: Turns the LCD backlight on.
+
+/turnLCDBacklightOff: Turns the LCD backlight off.
+
+Response Format
+Each endpoint returns "success" if the operation is completed successfully.
+
+If an operation fails (e.g., invalid input for LCD message), it returns "failed".
+
+These endpoints allow full control over your system’s LEDs and LCD from any device on your network.​
